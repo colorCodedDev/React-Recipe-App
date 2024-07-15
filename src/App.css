@@ -1,0 +1,181 @@
+.heading {
+  text-align: center;
+}
+
+.sub-heading {
+  text-align: center;
+  font-size: small;
+}
+
+.heading-link {
+  text-align: center;
+  font-size: x-small;
+}
+
+.head-link {
+  text-align: center;
+  font-size: x-small;
+}
+
+.header-content {
+  padding: 3px 35px;
+}
+
+.sub-heading {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.accordion {
+  border: 1px solid aqua;
+  border-radius: 3px;
+}
+
+.recipe-flexbox {
+  display: flex;
+}
+
+.inner-image-container {
+  width: 30%;
+}
+
+.inner-ingredients-container {
+  width: 30%;
+}
+
+.ingredients-list,
+.directions-list {
+  font-size: 12px;
+}
+
+.description-text {
+  font-style: italic;
+  text-align: center;
+}
+
+.recipe-image {
+  width: 300px;
+}
+
+.edit-button.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  margin-left: 25px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 25px;
+}
+
+#edit-button {
+  margin-right: 25px;
+}
+
+#delete-button {
+  margin-left: 25px;
+}
+
+#add {
+  margin-top: 30px;
+}
+
+.card-header {
+  margin: 10px;
+  height: 30px;
+  font-size: x-small;
+  border: none;
+}
+
+button.btn.btn-link {
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+}
+
+.btn-link {
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+}
+
+a.button {
+  display: inline-block;
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  text-transform: none;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #3369ff;
+  box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+  text-align: center;
+  position: relative;
+  font-size: 10px;
+}
+
+a.button:active {
+  top: 0.1em;
+  border: none;
+}
+
+/* .model,
+.fade,
+.modal-dialog,
+.model-content {
+  transition: none !important;
+} */
+
+.add-recipe-modal {
+  z-index: 1001;
+}
+
+div.fade-edit-recipe-modal {
+  transition: opacity 1 linear !important;
+}
+
+.fade-edit-recipe-modal {
+  transition: opacity 1 linear !important;
+}
+
+/* input {
+  padding: 10px;
+  margin: 10px;
+  width: 60%;
+} */
+
+/* label {
+  font-size: 12px;
+  padding: 5px;
+  margin: 5px;
+  width: 60%;
+} */
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 500px;
+}
+
+#title,
+#description,
+#ingredients,
+#instructions {
+  width: 425px;
+}
+
+#edited-title,
+#edited-description,
+#edited-ingredients,
+#edited-directions {
+  width: 425px;
+}
+
+@media all and (max-width: 30em) {
+   a.button {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
